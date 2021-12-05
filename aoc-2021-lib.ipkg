@@ -1,0 +1,44 @@
+package aoc-2021-lib
+-- version =
+authors = "incertia"
+-- maintainers =
+-- license =
+-- brief =
+-- readme =
+-- homepage =
+-- sourceloc =
+-- bugtracker =
+
+-- packages to add to search path
+depends = contrib
+
+-- modules to install
+modules = AOC2021, AOC2021.Day01, AOC2021.Day02
+
+-- main file (i.e. file to load at REPL)
+-- main
+
+-- name of executable
+-- executable =
+-- opts =
+sourcedir = "lib"
+builddir = "build/aoc-2021-lib"
+-- outputdir = "depends/aoc-2021-lib"
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+postbuild = "cp -rT build/aoc-2021-lib/ttc/ depends/aoc-2021-lib/"
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
